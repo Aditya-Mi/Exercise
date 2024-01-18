@@ -3,6 +3,7 @@ import 'package:go_router_example/routes/my_router.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   usePathUrlStrategy();
   runApp(const MyApp());
 }
